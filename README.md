@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="./assets/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/preview.webp?v=22590344533"/>
 </p>
 
 ## Previews
