@@ -36,26 +36,25 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Put the style file in your quarto project folder.
-3. Include the style file as a [custom theme](https://quarto.org/docs/output-formats/html-themes.html#custom-themes) in the `_quarto.yaml` file of the project. Examples:
+1. Download the flavor of your choice from the *themes/* folder, e.g. `catppuccin-latte.scss`.
+2. Put the `.scss` file in your Quarto project folder.
+3. Add the `.scss` file as a [custom theme](https://quarto.org/docs/output-formats/html-themes.html#custom-themes) in the `_quarto.yaml` file. Examples:
 
 ```yaml
 theme:
-  - cosmo
   - latte.scss
 ```
 
 ```yaml
 theme:
-  light: [cosmo, latte.scss]
-  dark: [cosmo, macchiato.scss]
+  light: latte.scss
+  dark: macchiato.scss
 ```
 
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [olavlan](https://github.com/olavlan)
 
 &nbsp;
 
