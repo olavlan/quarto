@@ -19,7 +19,7 @@ jobs:
       run: |
         whiskers quarto.tera
     - name: Set up Quarto
-      uses: quarto-dev/quarto-actions/se>tup@v2
+      uses: quarto-dev/quarto-actions/setup@v2
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
