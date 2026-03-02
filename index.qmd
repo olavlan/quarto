@@ -1,0 +1,36 @@
+---
+title: "Quarto ❤️ Catppuccin"
+---
+
+[Quarto website](https://quarto.org)  
+
+```python
+# Python example
+def greet(name: str):
+    return f"Hello, {name}"
+```
+::: {.callout-note}
+Note: This is a note callout.
+:::
+
+::: {.callout-tip}
+Tip: A helpful tip.
+:::
+
+::: {.callout-warning}
+Warning: Be careful!
+:::
+
+::: {.callout-important}
+Important: Pay attention!
+:::
+
+::: {.callout-caution}
+Caution: Proceed with caution.
+:::
+
+# Section 1
+# Section 2
+# Section 3
+# Section 4
+# Section 5

@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "test"
+  title: "My Quarto Website"
   navbar:
     left:
       - href: index.qmd
@@ -11,8 +11,8 @@ website:
 
 format:
   html:
-    theme: catppuccin-mocha.scss
     toc: true
+    theme: catppuccin-{{ flavor }}.scss
 
 
 
