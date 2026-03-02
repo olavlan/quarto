@@ -2,7 +2,7 @@ name: Create themes and screenshots
 on:
   push:
     paths:
-      - quarto.scss
+      - quarto.tera
       - _quarto.yml
       - index.qmd
 
@@ -38,7 +38,7 @@ jobs:
     - name: Run Catwalk
       run: |
         catwalk latte.png frappe.png macchiato.png mocha.png --directory ./assets/
-    - name: Commit and push screenshot
+    - name: Commit and push themes and previews
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
