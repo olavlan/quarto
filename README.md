@@ -43,15 +43,15 @@
 ```yaml
 format:
   html:
-		theme: latte.scss
+    theme: latte.scss
 ```
 
 ```yaml
 format:
   html:
-	  theme:
-		  light: latte.scss
-			dark: macchiato.scss
+    theme:
+      light: latte.scss
+      dark: macchiato.scss
 ```
 
 
