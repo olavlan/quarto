@@ -18,6 +18,8 @@ jobs:
     - name: Run Whiskers
       run: |
         whiskers quarto.tera
+    - name: Set up Quarto
+      uses: quarto-dev/quarto-actions/se>tup@v2
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
@@ -26,8 +28,8 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install playwright jinja2
-    - name: Ensure browsers are installed
-      run: python -m playwright install --with-deps
+    - name: Ensure browser is installed
+      run: python -m playwright install --with-deps chromium
     - name: Run scheenshot script
       run: python screenshot.py
     - name: Commit and push screenshot
@@ -35,5 +37,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add assets/* themes/*
-        git commit -m "docs: update previews"
+        git commit -m "update themes and previews"
         git push
