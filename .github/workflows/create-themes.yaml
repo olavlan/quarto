@@ -1,9 +1,10 @@
 name: Create themes and screenshots
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - quarto.scss
+      - _quarto.yml
+      - index.qmd
 
 permissions: write-all
 

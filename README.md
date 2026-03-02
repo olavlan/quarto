@@ -19,19 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/latte.webp"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/mocha.png"/>
 </details>
 
 ## Usage
