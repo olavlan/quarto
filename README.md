@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://quarto.org/">Quarto</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -37,14 +37,21 @@
 ## Usage
 
 1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+2. Put the style file in your quarto project folder.
+3. Include the style file as a [custom theme](https://quarto.org/docs/output-formats/html-themes.html#custom-themes) in the `_quarto.yaml` file of the project. Examples:
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
+```yaml
+theme:
+  - cosmo
+	- frappe.scss
+```
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+```yaml
+theme:
+  light: [cosmo, frappe.scss]
+  dark: [cosmo, macchiato.scss]
+```
+
 
 ## 💝 Thanks to
 
