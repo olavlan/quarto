@@ -38,6 +38,9 @@ jobs:
     - name: Run Catwalk
       run: |
         catwalk latte.png frappe.png macchiato.png mocha.png --directory ./assets/
+    - name: Update README Image urls with Cache-Buster
+      run: |
+        sed -i "s|raw\.githubusercontent\.com/[^/]*/[^/]*/[^/]*/assets/\(preview\.webp\|latte\.png\|macchiato\.png\|frappe\.png\|mocha\.png\)\(\?v=[^\"]*\)\?|raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.event.repository.name }}/${{ github.ref_name }}/assets/\1?v=${{ github.run_id }}|g" README.md
     - name: Commit and push themes and previews
       run: |
         git config --global user.name "github-actions[bot]"
