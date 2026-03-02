@@ -10,7 +10,7 @@ whiskers:
 
 /* Quarto base colors: https://quarto.org/docs/output-formats/html-themes.html#colors */
 $body-bg:    #{{ base.hex }};
-$body-color: #{{ text.hex }};
+$body-color: #{{ blue.hex }};
 $link-color: #{{ blue.hex }};
 $input-bg:   #{{ surface1.hex }};
 $popover-bg: #{{ surface1.hex }};
