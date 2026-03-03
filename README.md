@@ -12,26 +12,26 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/preview.webp?v=22590344533"/>
+  <img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/preview.webp?v=22642822401"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/latte.png?v=22590713601"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/latte.png?v=22642822401"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/frappe.png?v=22590713601"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/frappe.png?v=22642822401"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/macchiato.png?v=22590713601"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/macchiato.png?v=22642822401"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/mocha.png?v=22590713601"/>
+<img src="https://raw.githubusercontent.com/olavlan/quarto/main/assets/mocha.png?v=22642822401"/>
 </details>
 
 ## Usage
