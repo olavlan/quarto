@@ -2,25 +2,28 @@
 /*-- scss:defaults --*/
 
 /* Quarto base colors: https://quarto.org/docs/output-formats/html-themes.html#colors */
-$body-bg:    #eff1f5;
+
+$body-bg:    #dce0e8;
 $body-color: #4c4f69;
 $link-color: #1e66f5;
 $input-bg:   #bcc0cc;
 $popover-bg: #bcc0cc;
 
 /* Bootstrap gray scale https://github.com/twbs/bootstrap/blob/c82919e8970c7ebebb87ded191b815c76737cd04/scss/_variables.scss#L10-L18 */
-$gray-100: #ccd0da;
-$gray-200: #bcc0cc;
-$gray-300: #acb0be;
-$gray-400: #9ca0b0;
-$gray-500: #8c8fa1;
-$gray-600: #7c7f93;
-$gray-700: #6c6f85;
-$gray-800: #5c5f77;
-$gray-900: #4c4f69;
+
+$gray-900: #5c5f77;
+$gray-800: #6c6f85;
+$gray-700: #7c7f93;
+$gray-600: #8c8fa1;
+$gray-500: #9ca0b0;
+$gray-400: #acb0be;
+$gray-300: #bcc0cc;
+$gray-200: #ccd0da;
+$gray-100: #eff1f5;
 
 
 /* Bootstrap base colors: https://github.com/twbs/bootstrap/blob/c82919e8970c7ebebb87ded191b815c76737cd04/scss/_variables.scss#L39-L48*/
+
 $blue:    #1e66f5;
 $indigo:  #7287fd;
 $purple:  #8839ef;

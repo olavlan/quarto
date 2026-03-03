@@ -9,25 +9,34 @@ whiskers:
 /*-- scss:defaults --*/
 
 /* Quarto base colors: https://quarto.org/docs/output-formats/html-themes.html#colors */
-$body-bg:    #{{ base.hex }};
+
+$body-bg:    #{{ crust.hex }};
 $body-color: #{{ text.hex }};
 $link-color: #{{ blue.hex }};
 $input-bg:   #{{ surface1.hex }};
 $popover-bg: #{{ surface1.hex }};
 
 /* Bootstrap gray scale https://github.com/twbs/bootstrap/blob/c82919e8970c7ebebb87ded191b815c76737cd04/scss/_variables.scss#L10-L18 */
-$gray-100: #{{ surface0.hex }};
-$gray-200: #{{ surface1.hex }};
-$gray-300: #{{ surface2.hex }};
-$gray-400: #{{ overlay0.hex }};
-$gray-500: #{{ overlay1.hex }};
-$gray-600: #{{ overlay2.hex }};
-$gray-700: #{{ subtext0.hex }};
-$gray-800: #{{ subtext1.hex }};
-$gray-900: #{{ text.hex }};
 
+{% set start = 0 -%}
+{% set sign = 1 -%}
+{% if flavor.identifier == "latte" -%}
+    {% set start = 1000 -%}
+    {% set sign = -1 -%}
+{% endif -%}
+
+$gray-{{ start + sign * 100 }}: #{{ subtext1.hex }};
+$gray-{{ start + sign * 200 }}: #{{ subtext0.hex }};
+$gray-{{ start + sign * 300 }}: #{{ overlay2.hex }};
+$gray-{{ start + sign * 400 }}: #{{ overlay1.hex }};
+$gray-{{ start + sign * 500 }}: #{{ overlay0.hex }};
+$gray-{{ start + sign * 600 }}: #{{ surface2.hex }};
+$gray-{{ start + sign * 700 }}: #{{ surface1.hex }};
+$gray-{{ start + sign * 800 }}: #{{ surface0.hex }};
+$gray-{{ start + sign * 900 }}: #{{ base.hex }};
 
 /* Bootstrap base colors: https://github.com/twbs/bootstrap/blob/c82919e8970c7ebebb87ded191b815c76737cd04/scss/_variables.scss#L39-L48*/
+
 $blue:    #{{ blue.hex }};
 $indigo:  #{{ lavender.hex }};
 $purple:  #{{ mauve.hex }};

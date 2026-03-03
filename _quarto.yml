@@ -12,7 +12,8 @@ website:
 format:
   html:
     toc: true
-    theme: catppuccin-{{ flavor }}.scss
+    theme: 
+      - catppuccin-{{ flavor }}.scss
 
 
 
