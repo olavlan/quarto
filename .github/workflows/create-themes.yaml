@@ -31,7 +31,7 @@ jobs:
         python -m pip install playwright jinja2
     - name: Ensure browser is installed
       run: python -m playwright install --with-deps chromium
-    - name: Run capture scheenshot script
+    - name: Run capture screenshot script
       run: python screenshot.py
     - name: Set up Catwalk
       uses: catppuccin/setup-catwalk@v1.0.0
