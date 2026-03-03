@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download the flavor of your choice from the *themes/* folder, e.g. `catppuccin-latte.scss`.
+1. Download the flavors of your choice from the *themes/* folder, e.g. `catppuccin-latte.scss`.
 2. Put the `.scss` file in your Quarto project folder.
 3. Add the `.scss` file as a [custom theme](https://quarto.org/docs/output-formats/html-themes.html#custom-themes) in your `_quarto.yaml` file. Examples:
 
