@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
-    - name: Setup Whiskers
+    - name: Set up Whiskers
       uses: catppuccin/setup-whiskers@v2
     - name: Run Whiskers
       run: |
@@ -31,14 +31,14 @@ jobs:
         python -m pip install playwright jinja2
     - name: Ensure browser is installed
       run: python -m playwright install --with-deps chromium
-    - name: Run scheenshot script
+    - name: Run capture scheenshot script
       run: python screenshot.py
-    - name: Setup Catwalk
+    - name: Set up Catwalk
       uses: catppuccin/setup-catwalk@v1.0.0
     - name: Run Catwalk
       run: |
         catwalk latte.png frappe.png macchiato.png mocha.png --directory ./assets/
-    - name: Update README Image urls with Cache-Buster
+    - name: Update README image url's to refresh cache
       run: |
         sed -i -E "s|raw\.githubusercontent\.com/[^/]*/[^/]*/[^/]*/assets/(preview\.webp\|latte\.png\|macchiato\.png\|frappe\.png\|mocha\.png)(\?v=[^\"]*)?|raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.event.repository.name }}/${{ github.ref_name }}/assets/\1?v=${{ github.run_id }}|g" README.md
     - name: Commit and push themes and previews
